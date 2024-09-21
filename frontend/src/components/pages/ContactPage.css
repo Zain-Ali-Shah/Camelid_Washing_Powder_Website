@@ -1,0 +1,48 @@
+.contact-section {
+	background-image: url("../../../public/images/camlid-background.png");
+	background-size: cover;
+	background-position: center;
+	height: 80vh; /* Adjust height as needed */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white; /* Text color for better readability */
+}
+
+.contact-section h2 {
+	font-size: 2.5rem; /* Adjust font size */
+	margin-bottom: 1rem; /* Adjust spacing */
+}
+
+.contact-section p {
+	font-size: 1.5rem; /* Adjust font size */
+	margin-bottom: 2rem; /* Adjust spacing */
+}
+
+.contact-info {
+	margin: 20px 0;
+}
+
+.contact-info-item {
+	margin-bottom: 20px;
+}
+
+.contact-info-item p {
+	display: flex;
+	align-items: center;
+	/* justify-content: center; Center the text and icons horizontally */
+	margin-bottom: 10px;
+}
+
+.icon {
+	margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+	.contact-info-item p {
+		flex-direction: column;
+		text-align: center;
+	}
+}

@@ -1,0 +1,16 @@
+/* Default styling for the carousel images */
+.carousel-image img {
+	width: 100%;
+	height: auto;
+	/* padding: 50px 0; */
+	object-fit: cover;
+}
+
+/* Media Query for Larger Screens (minimum width 1024px) */
+@media (min-width: 1024px) {
+	.carousel-item {
+		background-color: black;
+		padding-left: 450px;
+		padding-right: 450px;
+	}
+}
